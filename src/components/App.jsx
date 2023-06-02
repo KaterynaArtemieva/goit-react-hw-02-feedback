@@ -28,7 +28,6 @@ export class App extends Component {
     if (this.countTotalFeedback() > 0) {
       return Math.round((this.state.good / this.countTotalFeedback()) * 100);
     }
-    return;
   };
 
   render() {
